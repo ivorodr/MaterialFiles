@@ -8,7 +8,7 @@ package me.zhanghai.android.files.nonfree
 import android.annotation.SuppressLint
 import android.content.pm.PackageManager
 import android.content.pm.Signature
-import com.google.firebase.crashlytics.FirebaseCrashlytics
+//import com.google.firebase.crashlytics.FirebaseCrashlytics
 import java.security.MessageDigest
 import java.security.NoSuchAlgorithmException
 import me.zhanghai.android.files.BuildConfig
@@ -27,7 +27,7 @@ object CrashlyticsInitializer {
             // Please, don't spam.
             return
         }
-        FirebaseCrashlytics.getInstance().setCrashlyticsCollectionEnabled(true)
+        //FirebaseCrashlytics.getInstance().setCrashlyticsCollectionEnabled(true)
     }
 
     private fun verifyPackageName(): Boolean {
